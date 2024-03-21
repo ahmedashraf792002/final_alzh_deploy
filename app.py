@@ -36,7 +36,7 @@ def api():
         ind = np.argmax(result)
         prediction = classes[ind]
         print(prediction)
-        return jsonify({'prediction': prediction,'Prob':round(result[0,ind],2)})
+        return jsonify({'prediction': prediction})
     except:
         return jsonify({'Error': 'Error occur'})
 
