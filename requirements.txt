@@ -1,6 +1,6 @@
 gunicorn
 flask
-tensorflow
+tensorflow==2.13.0
 pillow
 numpy
 protobuf==3.20.*
